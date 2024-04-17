@@ -1,0 +1,117 @@
+
+/* 
+primary #86469C
+sub #BC7FCD
+sub #FB9AD1
+secondary #FFCDEA
+*/
+.nav{
+    padding: 1.25vw;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items: center;
+    height: 5vh;
+    background-color:beige;
+}
+
+.logo{
+    color : #86469C;
+    font-weight: 700;
+    font-size:x-large;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    padding: 0.5vw;
+    border-radius: 5px;
+    gap:1vw;
+    padding-inline: 1vw;
+}
+
+.btn-sec{
+    border: 2px solid #BC7FCD;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 5px;
+    gap:1vw;
+    padding-inline: 1vw;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    width: 100px;
+}
+
+.input-box{
+    border: 2px solid #BC7FCD;
+    width: 35vw;
+    padding: 0.3vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+    border-radius: 5px;
+    background-image: url('../resources/search.svg');
+    background-position: 97%; 
+    background-repeat: no-repeat;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap : 1vw;
+}
+.fav{
+    margin-left : 3vw;
+    border-radius: 5px;
+    border: 2px solid #BC7FCD;
+    padding-inline: 4%;
+    width: fit-content;
+    padding-right: 5%;
+    height: 100%;
+}
+.user{
+    margin-left: 1vw;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 0.5vw;
+    height: 100%;
+  }
+  .center-content-left{
+    display: flex;
+    align-items: center;
+    gap : 0.1vw;
+    height: 100%;
+  }
+  .center-content-col{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap : 0.5vw;
+  }
+  .black{
+    color : black;
+  }
+  .sub-head{
+    font-size: 0.7vw;
+  }
+  .sign-btn{
+    display: flex;
+    height: 100%;
+  }
+.heart-img{
+    height: 60%;
+}

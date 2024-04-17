@@ -1,0 +1,65 @@
+/* 
+primary #86469C
+sub #BC7FCD
+sub #FB9AD1
+secondary #FFCDEA
+*/
+
+.rent-container{
+    margin-inline : 5%;
+    margin-top: 3%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.rent-head{
+    font-size: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-more{
+    font-size: 1.5vw;
+    padding: 0.5vw;
+    border: 2px solid #BC7FCD;
+    background-color: #86469C;
+    color: aliceblue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.arrow{
+    font-size: 2vw;
+}
+.nothing-img{
+    width: 20%;
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.add-listing-form{
+    display: flex;
+    flex-direction: column;
+    gap : 20px;
+    align-self: center;
+    width: 50%;
+    font-size: 1.5vw;
+    border : 3px solid #FFCDEA;
+    padding: 2%;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+.lab{
+    align-self: flex-start;
+}
+.inp-add{
+    font-size: 2vw;
+    width: 100%;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,83 @@
+/* 
+primary #86469C
+sub #BC7FCD
+sub #FB9AD1
+secondary #FFCDEA
+*/
+
+.find-menu{
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    font-size: 1.5vw;
+    margin-top : 2%;
+    border: 3px solid #FB9AD1;
+    border-radius: 5px;
+    width: 75%;
+}
+
+.inp{
+    border: 2px solid #BC7FCD;
+    padding : 2%;
+    border-radius: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.num-people{
+    width: 10%;
+}
+.find-btn{
+    width: 15%;
+}
+.listing{
+    display : flex;
+    flex-direction: column;
+}
+.card{
+    margin-top: 1%;
+    display: flex;
+    gap : 2%;
+    padding: 2%;
+    border: 2px solid #FFCDEA;
+}
+.image-area{
+    width: 20%;
+}
+.card-image{
+    width: 100%;
+}
+.info-area{
+    text-align: left;
+    display : flex;
+    flex-direction: column;
+    justify-content: start;
+    gap : 2%;
+}
+.info-amenities{
+    display: flex;
+    gap : 1%;
+}
+.amenities{
+    border : 1px solid #BC7FCD;
+    padding: 0.5%;
+}
+.card-loc{
+    font-size : 1.5vw;
+    display: flex;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap : 5%
+}
+.contact-btn{
+    background-color: #BC7FCD;
+    margin-top: 1%;
+    border-radius: 5px;
+    padding: 0.5%;
+    cursor: pointer;
+}
